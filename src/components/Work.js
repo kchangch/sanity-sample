@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client";
 import { Link } from "react-router-dom";
-import Particles from 'react-particles-js';
-import particlesConfig from "./particlesConfig";
 import image from "../background.jpeg"
 
 export default function Work() {

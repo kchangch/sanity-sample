@@ -4,7 +4,6 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Work from "./components/Work"
 import SingleWork from "./components/SingleWork";
-import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
 
 function App() {

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import Particles from 'react-particles-js';
-import particlesConfig from "./particlesConfig";
 import image from "../background.jpeg"
 
 const builder = imageUrlBuilder(sanityClient);

@@ -1,6 +1,4 @@
 import React from "react"
-import Particles from 'react-particles-js';
-import particlesConfig from "./particlesConfig";
 import image from "../background.jpeg"
 
 export default function Home() {

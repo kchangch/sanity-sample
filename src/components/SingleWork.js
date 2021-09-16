@@ -3,14 +3,12 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../client";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import Particles from 'react-particles-js';
-import particlesConfig from "./particlesConfig";
 import image from "../background.jpeg"
 
 const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-    return builder.image(source);
-}
+// function urlFor(source) {
+//     return builder.image(source);
+// }
 
 export default function SingleWork() {
 

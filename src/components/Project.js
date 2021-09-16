@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import Particles from 'react-particles-js';
-import particlesConfig from "./particlesConfig";
 import image from "../background.jpeg"
 
 export default function Project() {
